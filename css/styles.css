@@ -3042,13 +3042,12 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #693691;
-  border-color: #693691;
+  background-color: #9869B7;
 }
 .btn-primary:hover {
   color: #fff;
   background-color: #7835ac;
-  border-color: #7835ac;
+  border-color: white;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11481,7 +11480,7 @@ header.masthead .masthead-heading {
 }
 ***************************************************************************************************************
 #portfolio .portfolio-item {
-  max-width: 26rem;
+  max-width: 35rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -11489,7 +11488,8 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
-  margin: 0 auto;
+  margin: 3rem 5rem;
+  background-color: white;
 }
 #portfolio .portfolio-item .portfolio-hover  {
   border-radius: 10px 10px 40px 40px;
@@ -11865,4 +11865,97 @@ section#servicio .section-heading {
 }
 section#servicio form#contactForm .form-group {
   margin-bottom: 1.5rem;
+}
+
+/*servicios*/
+
+.serv-title{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 5rem;
+  background-color: #89D316;
+  color: white;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 30px;
+  padding: 5px;
+}
+.servicio-content{
+  max-width:800px;
+  margin: auto;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+.serv-card{
+  margin-bottom: 20px;
+  width:100%;
+  height: 120px;
+  transition: all 300ms;
+}
+.serv-item{
+  display: flex;
+  height: 120px;
+}
+
+.serv-info{
+  width: 400px;
+  margin-left: -400px;
+  color: white;
+  background-color: #9869B7;
+  border-radius:15px;
+  transition: all 400ms cubic-bezier(0.5,0,0,1);
+}
+.serv-card:hover .serv-info{
+  margin-left: 0px;
+}
+
+.serv-img{
+  width: 400px;
+  background: white;
+  border-radius:15px;
+  color: #653B7B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:25px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  transition: all 400ms cubic-bezier(0.5,0,0,1);
+}
+.serv-item:hover .serv-img{
+  margin-left: -80px;
+}
+.serv-img img{
+  margin-left: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+.serv-info p{
+  margin-left: 3rem;
+  font-size: 25px;
+  margin-bottom: 1px;
+}
+.serv-info ul{
+  margin-left: 3rem;
+  align-items: center;
+  font-size:12px;
+  justify-content: center;
+  margin-bottom: 1px;
+}
+.serv-info a{
+  margin-left: 4rem;
+  color:white;
+  font-weight: bold;
+  font-size: 12px;
+}
+#save{
+  padding: 0.5rem 1.5rem;
+  margin-left:8rem;
+  font-weight: 700;
+  font-size:1rem;
+}
+.form-control::placeholder{
+  color:#653B7B;
 }
