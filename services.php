@@ -14,71 +14,6 @@
     </head>
     <body id="page-top">
 
-        <div class="top-bar d-one d-md-block" style="background:#693691;padding-top:8px;">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="top-bar-left">
-                    <div class="text">
-                      <i class="fas fa-phone-square" style="margin: 0 5px;"></i>
-                      <a href="tel:+017457089" style="color: white;" >
-                          (01) 745 7089
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-     
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container" >
-                <a class="navbar-brand" href="index.html" ><img src="assets/img/log-mjv.png" alt="..." /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#page-top"><b>Inicio</b></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about"><b>Nosotros</b></a></li>
-                        <li class="nav-item"><a class="nav-link" href="services.html"><b>Servicios</b></a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html"><b>Contacto</b></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <header class="masthead" >
-            <div class="container">
-                <div class="masthead-heading text-uppercase" style="color: #89d316;">¡Bienvenidos!</div>
-                <h1>Somos MJV</h1>
-                <div class="masthead-subheading">¿Necesitas hacer crecer tu empresa,
-                    pero no sabes por dónde empezar?
-                    Nosotros podemos ayudarte</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="contact.html">Obtén un Asesoría Gratis</a>
-            </div>
-        </header>
-
-        <section class="page-section" id="about" style="background: #dbdada;">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center col-md-6">
-                        <h2 class="section-heading text-uppercase" style="color: #693691;">SOBRE NOSOTROS</h2>
-                        <h3 class="section-subheading text-muted">Somos una empresa especializada en brindar servicios de
-                            reclutamiento y selección de personal, así como en el desarrollo de tu
-                            marca mediante marketing digital.</h3>
-                        <i class="fab fa-facebook" style="font-size: 50px;margin: 0 20px;"><a href=""></a></i>
-                        <i class="fab fa-youtube" style="font-size: 50px;margin: 0 20px;"><a href=""></a></i>
-                        <i class="fab fa-linkedin" style="font-size: 50px;margin: 0 20px;"><a href=""></a></i>
-                    </div>
-                    <div class="text-center col-md-6">
-                        <img src="assets/img/about.jpg" alt="" style="max-width: 100%;">
-                    </div>
-                 </div>
-            </div>
-        </section>
-
         <!-- <section class="page-section bg-light" id="portfolio">
             <div class="container-fluid" style="background-color: #653B7B;">
                 <div class="text-center">
@@ -158,7 +93,7 @@
                 </div>  
             </div>
         </section> -->
-        <div style="background-color:#653B7B">
+        <div style="background-color:#653B7B;" id="servicios">
             <div class="col-5" style="margin-top: 20px;">
                 <br>
                 <div class="serv-title">
@@ -376,9 +311,8 @@
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="js/scripts.js"></script>
 
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
-</html>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
+   

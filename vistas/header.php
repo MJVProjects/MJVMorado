@@ -69,16 +69,16 @@
                  <ul class="navbar-nav ms-auto mb-0 mb-lg-0 " >
                  <!-- navbar-nav text-uppercase ms-auto py-4 py-lg-0 -->
                      <li class="nav-item">
-                         <a class="nav-link nav-ini" style="font-size: 25px; font-family:calibri;" aria-current="page" href="#">INICIO</a>
+                         <a class="nav-link nav-ini" style="font-size: 25px; font-family:calibri;" aria-current="page" href="./index.php">INICIO</a>
                      </li>
                      <li class="nav-item">
-                         <a class="nav-link nav-ini" style="font-size: 25px; font-family:calibri;"  href="#">NOSOTROS</a>
+                         <a class="nav-link nav-ini" style="font-size: 25px; font-family:calibri;"  href="#about">NOSOTROS</a>
                      </li>
                      <li class="nav-item">
-                         <a class="nav-link nav-ini" style="font-size: 25px; font-family:calibri;"  href="#">SERVICIOS</a>
+                         <a class="nav-link nav-ini" style="font-size: 25px; font-family:calibri;"  href="#servicios">SERVICIOS</a>
                      </li>
                      <li class="nav-item">
-                         <a class="nav-link nav-ini me-2" style="font-size: 25px; font-family:calibri;"  href="#">CONTÁCTANOS</a>
+                         <a class="nav-link nav-ini me-2" style="font-size: 25px; font-family:calibri;"  href="./contact.php">CONTÁCTANOS</a>
                      </li>
                      
                  </ul>

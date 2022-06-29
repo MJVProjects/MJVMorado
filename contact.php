@@ -13,10 +13,12 @@
         <link href="css/styles.css" rel="stylesheet" />
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+         <!-- stylos propios -->
+        <link rel="stylesheet" href="./css/Print_Styles.css">
     </head>
     <body id="top">
 
-        <div class="top-bar d-one d-md-block" style="background:#693691;padding-top:8px;">
+        <!-- <div class="top-bar d-one d-md-block" style="background:#693691;padding-top:8px;">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-12">
@@ -31,9 +33,9 @@
                 </div>
               </div>
             </div>
-        </div>
+        </div> -->
       
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img src="assets/img/log-mjv.png" alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,9 +51,9 @@
                     </ul>
                 </div>
             </div>
-        </nav>  
+        </nav>   -->
 
-        <section class="page-section" id="contact">
+        <!-- <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase"  style="color: #89d316;">Contacto</h2>
@@ -59,8 +61,10 @@
                         en contacto tan pronto como sea posible</p>
                 </div>
             </div>
-        </section>
-
+        </section> -->
+        <?php
+        include_once '../MJVMorado/vistas/header.php';
+        ?>
         <section class="page-section" id="about" style="background: #653B7B; color:white;">
             <div class="container">
                 <form id="Formulario">
