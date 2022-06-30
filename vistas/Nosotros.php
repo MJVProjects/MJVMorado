@@ -85,12 +85,7 @@
             <!-- <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
             <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p> -->
             <div class="row titu">
-                <a href="#" class="btn boton2" style="width: auto;
-             
-             font-size: 40px; 
-             font-family: calibri;
-             background:#89D316 ;
-             color: white;"> Sobre Nosotros</a>
+                <a href="#" class="btn boton2"> Sobre Nosotros</a>
             </div>
 
             <div class="row mt-5">
@@ -118,12 +113,7 @@
 <div class="container">
     <div class="row sep">
         <div class="col-lg-4 text-center">
-            <p><a class="btn boton"  href="#" style="width: 300px;
-            font-size: 40px; 
-            font-family: calibri;
-            background:#89D316 ;
-            color: white;
-            border-radius: 10px;">Misión</a></p>
+            <p><a class="btn boton"  href="#">Misión</a></p>
             <p class="cont">Somos una empresa que brinda servicios de marketing digital y de reclutamiento de personal a precios accesibles, apoyamos al emprendedor y empresarios a conseguir sus objetivos.</p>
             <div>
                 <img src="assets/img/06.png" class="bd-placeholder-img" width="100" height="auto"  style="margin-bottom: 20px;" alt="...">
@@ -131,12 +121,7 @@
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4 text-center">
-            <p><a class="btn boton" href="#" style="width: 300px;
-            font-size: 40px; 
-            font-family: calibri;
-            background:#89D316 ;
-            color: white;
-            border-radius: 10px;">Visión</a></p>
+            <p><a class="btn boton" href="#" >Visión</a></p>
             <p class="cont">Con nuestros precios accesibles, buscamos generar un impacto y ayudar a los emprendedores a conseguir sus objetivos.</p>
             <div>
                 <img src="assets/img/05.png" class="bd-placeholder-img im2" width="auto" height="120" alt="...">
@@ -144,12 +129,7 @@
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4 text-center">
-            <p><a class="btn boton" href="#" style="width: 300px;
-            font-size: 40px; 
-            font-family: calibri;
-            background:#89D316 ;
-            color: white;
-            border-radius: 10px;">Valores</a></p>
+            <p><a class="btn boton" href="#" >Valores</a></p>
             <p class="cont">Compromiso, Puntualidad, Integridad y Responsabilidad</p>
             <div>
                 <img src="assets/img/04.png" class="bd-placeholder-img im3" width="140" height="auto" alt="...">
