@@ -10,13 +10,15 @@
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="./css/styles.css" rel="stylesheet" />
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
          <!-- stylos propios -->
         <link rel="stylesheet" href="./css/Print_Styles.css">
+        <!-- Boostrap V-5.2 -->
+        <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     </head>
-    <body id="top">
+    <body>
 
         <!-- <div class="top-bar d-one d-md-block" style="background:#693691;padding-top:8px;">
             <div class="container-fluid">
@@ -62,10 +64,11 @@
                 </div>
             </div>
         </section> -->
+        
+        <section class="page-section" id="about" style="background: #653B7B; color:white;">
         <?php
         include_once '../MJVMorado/vistas/header.php';
-        ?>
-        <section class="page-section" id="about" style="background: #653B7B; color:white;">
+        ?>    
             <div class="container">
                 <form id="Formulario">
                     <div class="row align-items-stretch mb-3">
@@ -129,7 +132,7 @@
         <footer class="footer py-4" style="background-color:#653B7B;">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="widget clearfix">
                             <div class="widget-title">
                                 <img src="assets/img/logo_mjv.png" alt="" style="max-width:200px;"/>
@@ -140,31 +143,31 @@
                         </div>
                     </div>
     
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="widget clearfix">
-                            <div class="widget-title" style="position: relative;display: block;margin-bottom:30px;">
+                    <div class="col-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="widget clearfix" style="margin-left: 5rem;">
+                            <div class="widget-title" style="position: relative;display: block;margin-bottom:30px;margin-left: 2rem;">
                                 <h3 style="color: #fff;">Índice</h3>
                             </div>
                             <ul class="footer-links hov" style="list-style: none;text-align: justify;font-size: large;">
 
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;" href="index.html">Inicio</a></li>                              
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;" href="index.html">Nosotros</a></li>                              
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;" href="services.html">Servicios</a></li>                              
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;" href="contact.html">Contacto</a></li>                              
+                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="index.html">Inicio</a></li>                              
+                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="index.html">Nosotros</a></li>                              
+                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="services.html">Servicios</a></li>                              
+                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="contact.html">Contacto</a></li>                              
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="footer-distributed widget clearfix">
-                            <div class="widget-title" style="position: relative;display: block;margin-bottom:30px;">
+                            <div class="widget-title" style="position: relative;display: block;margin-bottom:30px;margin-left:2rem;">
                                 <h3 style="color: #fff;">Ponte en contacto:</h3>
                             </div>
                             <ul class="footer-links hov" style="list-style: none;text-align: justify;font-size: large;">
 
-                                <li><i class="fas fa-envelope" style="color: white"></i> <a style="color: white;" href="mailto:recursos.humanos@mjv.com.pee" >recursos.humanos@mjv.com.pe</a></li><br>      
-                                <li><i class="fas fa-envelope" style="color: white"></i> <a style="color: white;" href="mailto:marketing@mjv.com.pe" target="">marketing@mjv.com.pe</a></li><br>            
+                                <li><i class="fas fa-envelope" style="color: white"></i> <a style="color: white;text-decoration:none;" href="mailto:recursos.humanos@mjv.com.pee" >recursos.humanos@mjv.com.pe</a></li><br>      
+                                <li><i class="fas fa-envelope" style="color: white"></i> <a style="color: white;text-decoration:none;" href="mailto:marketing@mjv.com.pe" target="">marketing@mjv.com.pe</a></li><br>            
 
-                                <li><i class="fas fa-phone-square" style="color: white"></i> <a style="color: white;" href="tel:+017457089">(01) 745 - 7089</a></li>      
+                                <li><i class="fas fa-phone-square" style="color: white"></i> <a style="color: white;text-decoration:none;" href="tel:+017457089">(01) 745 - 7089</a></li>      
                             </ul>
                         </div>
                     </div>
@@ -182,7 +185,7 @@
                         <a class="btn btn-dark btn-social mx-2" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" style="color:#fff;">Copyright &copy; MJV 2021</a>
+                        <a class="text-decoration-none me-3" style="color:#fff;">Copyright &copy; MJV 2021</a>
                     </div>
                 </div>
             </div>

@@ -11,8 +11,9 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <link href="css/styles.css" rel="stylesheet" />
+        
     </head>
-    <body id="page-top">
+    <body>
 
         <!-- <section class="page-section bg-light" id="portfolio">
             <div class="container-fluid" style="background-color: #653B7B;">
@@ -154,69 +155,6 @@
                 </div>
             </div>
         </div>
-        
-
-        <footer class="footer py-4" style="background-color:#653B7B;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="widget clearfix">
-                            <div class="widget-title">
-                                <img src="assets/img/logo_mjv.png" alt="" style="max-width:200px;"/>
-                            </div>
-                            <p style="text-align: justify;color: white;">Somos una empresa  que brinda servicios 
-                                de marketing digital y de reclutamiento de personal a precios accesibles, apoyamos 
-                                al emprendedor y empresarios a conseguir sus objetivos.</p>
-                        </div>
-                    </div>
-    
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="widget clearfix">
-                            <div class="widget-title" style="position: relative;display: block;margin-bottom:30px;">
-                                <h3 style="color: #fff;">Índice</h3>
-                            </div>
-                            <ul class="footer-links hov" style="list-style: none;text-align: justify;font-size: large;">
-
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;" href="index.html">Inicio</a></li>                              
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;" href="index.html">Nosotros</a></li>                              
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;" href="services.html">Servicios</a></li>                              
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;" href="contact.html">Contacto</a></li>                              
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="footer-distributed widget clearfix">
-                            <div class="widget-title" style="position: relative;display: block;margin-bottom:30px;">
-                                <h3 style="color: #fff;">Ponte en contacto:</h3>
-                            </div>
-                            <ul class="footer-links hov" style="list-style: none;text-align: justify;font-size: large;">
-
-                                <li><i class="fas fa-envelope" style="color: white"></i> <a style="color: white;" href="mailto:recursos.humanos@mjv.com.pee" >recursos.humanos@mjv.com.pe</a></li><br>      
-                                <li><i class="fas fa-envelope" style="color: white"></i> <a style="color: white;" href="mailto:marketing@mjv.com.pe" target="">marketing@mjv.com.pe</a></li><br>            
-
-                                <li><i class="fas fa-phone-square" style="color: white"></i> <a style="color: white;" href="tel:+017457089">(01) 745 - 7089</a></li>      
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <footer class="footer py-4" style="background: #533268;">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start" style="color:#fff;">Todos los derechos reservados</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" style="color:#fff;">Copyright &copy; MJV 2021</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
 
         <!-- Modal 1-->
         <div class="modal fade" id="service1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
