@@ -12,11 +12,11 @@
     <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- stylos propios -->
-    <link rel="stylesheet" href="./css/Print_Styles.css">
+    <!-- <link rel="stylesheet" href="./css/Print_Styles.css"> -->
     <!-- <link rel="stylesheet" href="./css/carousel.css">
     <link rel="stylesheet" href="./css/carousel.rtl.css"> -->
-    <!-- <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/nosotros.css"> -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/nosotros.css"> -->
 
 
 </head>

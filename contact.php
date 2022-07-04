@@ -14,7 +14,8 @@
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
          <!-- stylos propios -->
-        <link rel="stylesheet" href="./css/Print_Styles.css">
+        
+        <!-- <link rel="stylesheet" href="./css/Print_Styles.css"> -->
         <!-- Boostrap V-5.2 -->
         <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     </head>
@@ -72,16 +73,18 @@
             <div class="container">
                 <form id="Formulario">
                     <div class="row align-items-stretch mb-3">
-                        <div class="info-contact col-md-6">
-                            <h6 style="font-size: xxx-large;">¡Escríbenos ahora!</h6><br>
-                            <p><i class="fas fa-envelope" style="font-size: 30px;"></i><a href="mailto:marketing@mjv.com.pe" style="color: white; font-size: 15px;padding-left: 10px;">marketing@mjv.com.pe </a></p>
-                            <p><i class="far fa-envelope" style="font-size: 30px;"></i><a href="mailto:recursos.humanos@mjv.com.pe" style="color: white; font-size: 15px;padding-left: 10px;">recursos.humanos@mjv.com.pe</a></p>
+                        <div class="escribe col-md-6"m style="margin-top: 10rem;">
+                            <h6 style="font-size: xxx-large;">¡Escríbenos ahora!</h6>
+                            <div class="linea"></div>
+                       
+                            <p><i class="fas fa-envelope" style="font-size: 30px;"></i><a href="mailto:marketing@mjv.com.pe" style="color: white; font-size: 15px;padding-left: 10px; text-decoration:none;">marketing@mjv.com.pe </a></p>
                             <p><b>Llámanos al: </b></p>
-                            <p><i class="fas fa-phone-square" style="font-size: 30px;"></i><a href="tel:+017457089" style="color: white;font-size: 15px;padding-left: 10px;">(01) 745 7089</a></p>                              
+                            <p><i class="fas fa-phone-square" style="font-size: 30px;"></i><a href="tel:+017457089" style="color: white;font-size: 15px;padding-left: 10px; text-decoration:none;">(01) 745 7089</a></p>                              
                            
                         </div>
                         <div class="col-md-6">
                             <h6 style="font-size: xxx-large;">¡Contáctanos hoy!</h6>
+                            <div class="linea"></div>
                             <p style="font-size: 13px;">Cuéntanos sobre tu negocio y los requerimientos que tengas y uno de nuestros
                                 consultores se pondrá en contacto contigo para atender tu solicitud.</p>
                             <div class="form-group">
@@ -93,29 +96,30 @@
                             <div class="form-group" style="padding-top: 10px;">
                                 <input class="form-control" id="telefono" type="text" placeholder="Número de Celular" maxlength="9" required/>
                             </div>
-                            <div class="form-group" style="padding-top: 10px;">
+                            <div class="form-group" style="padding-top: 10px; margin-bottom:10px;">
                                 <input class="form-control" id="email" type="email" placeholder="Dirección de correo"  required/>
-                            </div><br>
-                            <p>¿De qué lugar nos escribes?</p>
-                            <div class="form-group" style="padding-top: 5px;">
+                            </div>
+                            <p style="margin-bottom: 10px;">¿De qué lugar nos escribes?</p>
+                            <div class="form-group">
                                 <input class="form-control" id="ciudad" type="text" placeholder="Ejm. Lima" required/>
                             </div>
-                            <div class="form-group" style="padding-top: 10px;">
+                            <div class="form-group" style="padding-top: 10px; margin-bottom:10px;">
                                 <textarea class="form-control" id="detalles" rows="3" placeholder="Déjanos un mensaje sobre tu requerimiento o consulta" required ></textarea>
                             </div>
-                            <p>¿Por qué medio preferirías que te contactemos?</p>
-                            <div style="display: flex;">
+                            
+                            <p style="margin-bottom: 10px;">¿Por qué medio preferirías que te contactemos?</p>
+                            <div style="display: flex; margin-left:-1rem">
                                 <div class="form-check form-check">
-                                   <input class="form-check-input" type="checkbox" id="whatsapp" >
-                                   <label >Whatssapp</label>
+                                   <input type="radio" id="whatsapp" >
+                                   <label style="margin-right: 10px;">Whatssapp</label>
                                 </div>
                                 <div class="form-check form-check"> 
-                                    <input class="form-check-input" type="checkbox" id="correo" checked required>
-                                    <label >Correo</label>
+                                    <input type="radio" id="correo" checked required>
+                                    <label style="margin-right: 10px;">Correo</label>
                                 </div>
                                 <div class="form-check form-check">
-                                    <input class="form-check-input" type="checkbox" id="llamada" >
-                                    <label >Llamada</label>
+                                    <input type="radio" id="llamada" >
+                                    <label style="margin-right: 10px;">Llamada</label>
                                 </div>
                                     
                             </div>   

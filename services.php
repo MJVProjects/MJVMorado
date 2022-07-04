@@ -101,11 +101,12 @@
                     Marketing Digital
                 </div>                
             </div>
+            <br>
             <div class="servicio-content">
                 <div class="serv-card">
                     <div class="serv-item">
                         <div class="serv-img">
-                            Community Manager
+                        Community Manager 
                             <img src="assets/img/data/community.png" alt="">
                         </div>
                         <div class="serv-info">
@@ -119,13 +120,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="serv-card">
-                    <div class="serv-item">
-                        <div class="serv-img">
+                <div class="serv-card2">
+                    <div class="serv-item2">
+                        <div class="serv-img2">
                             Página Web
                             <img src="assets/img/data/pagina.png" alt="">
                         </div>
-                        <div class="serv-info">
+                        <div class="serv-info2">
                             <p>
                                 Página Web</p>
                                 <ul>
