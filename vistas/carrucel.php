@@ -49,7 +49,7 @@
 </head>
 <body>
 
-<div class="container-fluid me-0 ms-0">
+<!-- <div class="container-fluid me-0 ms-0">
     <div class="row" >
         
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -109,5 +109,17 @@
             </button>
         </div>
 
+    </div>
+</div> -->
+
+<div class="content mt-3 mb-5" id="about">
+    <div class="row featurette">
+          
+          <div class="col-md-12">
+        
+            <div class="text-center">
+                    <img src="assets/img/nuevo2.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  alt="...">
+            </div>
+          </div>
     </div>
 </div>

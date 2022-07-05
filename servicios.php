@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MJV</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/log-mjv.png" />
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/beb51ce232.js" crossorigin="anonymous"></script>
-    <!-- Boostrap V-5.2 -->
-    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- stylos propios -->
-    <!-- <link rel="stylesheet" href="./css/Print_Styles.css"> -->
-    <!-- <link rel="stylesheet" href="./css/carousel.css">
-    <link rel="stylesheet" href="./css/carousel.rtl.css"> -->
-    <link rel="stylesheet" href="./css/styles.css">
-    <!-- <link rel="stylesheet" href="./css/nosotros.css"> -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>MJV</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/log-mjv.png" />
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="./css/styles.css" rel="stylesheet" />
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+         <!-- stylos propios -->
+        
+        <!-- <link rel="stylesheet" href="./css/Print_Styles.css"> -->
+        <!-- Boostrap V-5.2 -->
+        <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
 
-
-</head>
-<body style="background: #653B7B;">
-   
-   <?php
+        
+        <section class="page-section" id="about" style="background: #653B7B; color:white;">
+        <?php
         include_once '../MJVMorado/vistas/header.php';
-        include_once '../MJVMorado/vistas/carrucel.php';
-        include_once '../MJVMorado/vistas/Nosotros.php';
-         include_once '../MJVMorado/services.php';
-        // include_once '../MJVMorado/vistas/footer.php';
-    ?>
-<br>
-<!-- footer     -->
-<footer class="footer py-4" style="background-color:#653B7B;">
+        include_once '../MJVMorado/services.php';
+        ?>    
+   
+        </section>
+
+
+        <footer class="footer py-4" style="background-color:#653B7B;">
             <div class="container">
                 <div class="row">
                     <div class="col-4 col-md-4 col-sm-4 col-xs-12">
@@ -52,10 +52,10 @@
                             </div>
                             <ul class="footer-links hov" style="list-style: none;text-align: justify;font-size: large;">
 
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="index.php">Inicio</a></li>                              
+                            <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="index.php">Inicio</a></li>                              
                                 <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="nosotros.php">Nosotros</a></li>                              
                                 <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="servicios.php">Servicios</a></li>                              
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="contact.php">Contacto</a></li>                              
+                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="contact.php">Contacto</a></li> 
                             </ul>
                         </div>
                     </div>
@@ -93,11 +93,11 @@
             </div>
         </footer>
 
-    <!-- Boostrap V 5.2 -->
-    <script src="../MJVMorado/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../MJVMorado/libs/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../MJVMorado/libs/bootstrap/js/popper.min.js"></script>
-    
-   
-</body>
+        
+    </body>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase.js"></script>
+        <script src="js/ContactFrom.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
 </html>

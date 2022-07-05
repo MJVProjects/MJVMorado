@@ -154,11 +154,11 @@
                             </div>
                             <ul class="footer-links hov" style="list-style: none;text-align: justify;font-size: large;">
 
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="index.html">Inicio</a></li>                              
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="index.html">Nosotros</a></li>                              
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="services.html">Servicios</a></li>                              
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="contact.html">Contacto</a></li>                              
-                            </ul>
+                            <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="index.php">Inicio</a></li>                              
+                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="nosotros.php">Nosotros</a></li>                              
+                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="servicios.php">Servicios</a></li>                              
+                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="contact.php">Contacto</a></li>     
+                        </ul>
                         </div>
                     </div>
                     <div class="col-4 col-md-4 col-sm-4 col-xs-12">
