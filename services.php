@@ -106,8 +106,8 @@
                 <div class="serv-card">
                     <div class="serv-item">
                         <div class="serv-img">
-                        Community Manager 
                             <img src="assets/img/data/community.png" alt="">
+                           <p>Community Manager</p>  
                         </div>
                         <div class="serv-info">
                             <p>
@@ -123,8 +123,8 @@
                 <div class="serv-card2">
                     <div class="serv-item2">
                         <div class="serv-img2">
-                            Página Web
                             <img src="assets/img/data/pagina.png" alt="">
+                            <p>Página Web</p> 
                         </div>
                         <div class="serv-info2">
                             <p>
@@ -140,8 +140,8 @@
                 <div class="serv-card">
                     <div class="serv-item">
                         <div class="serv-img">
-                            Diseño de Logo
                             <img src="assets/img/data/diseño.png" alt="">
+                            <p>Diseño de Logo</p> 
                         </div>
                         <div class="serv-info">
                             <p>
