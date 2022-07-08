@@ -13,26 +13,33 @@
         }
 
         .boton{
-            /* padding-left: 70px; 
 
-            padding-right:70px ;  */
-
-            width: 300px;
-            font-size: 40px; 
-            font-family: calibri;
+            width: auto;
+            font-size: 30px; 
+            font-family: Inter-Bold;
             background:#89D316 ;
             color: white;
             border-radius: 10px;
+            padding: 10px 50px 10px 50px;
+        }
+        .boton:hover{
+            background:#89D316 ;
+            color: white;
         }
 
         .boton2{
             width: auto;
-             
-            font-size: 40px; 
-            font-family: calibri;
+            font-size: 30px; 
+            font-family: Inter-Bold ;
             background:#89D316 ;
             color: white;
-           
+            padding: 15px;
+ 
+        }
+
+        .boton2:hover{
+            background:#89D316 ;
+            color: white;
         }
         .btn{
             border-radius: 20px;
@@ -63,7 +70,7 @@
             margin-bottom: 20px;
         }
         .im3{
-            margin-top: 100px;
+            margin-top: 85px;
             margin-bottom: 20px;
         }
 
@@ -88,7 +95,7 @@
                 <a href="#" class="btn boton2"> Sobre Nosotros</a>
             </div>
 
-            <div class="row mt-5">
+            <div class="row mt-3">
             <p class="cont">Somos una empresa que brinda servicios de marketing digital y de reclutamiento de personal a precios accesibles, apoyamos al emprendedor y empresarios a conseguir sus objetivos.</p>
             </div>
 
@@ -130,7 +137,10 @@
 
         <div class="col-lg-4 text-center">
             <p><a class="btn boton" href="#" >Valores</a></p>
-            <p class="cont">Compromiso, Puntualidad, Integridad y Responsabilidad</p>
+            <p class="cont">
+                <i class="fa-solid fa-angle-right"></i>  Compromiso<br>
+                <i class="fa-solid fa-angle-right"></i>  Puntualidad <br>
+                <i class="fa-solid fa-angle-right"></i>  Integridad y Responsabilidad</p>
             <div>
                 <img src="assets/img/04.png" class="bd-placeholder-img im3" width="140" height="auto" alt="...">
             </div>

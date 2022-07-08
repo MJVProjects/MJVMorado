@@ -25,25 +25,60 @@
     }
 
     .tex1{
-        font-family: calibri; 
+        font-family: Inter-Regular; 
         margin-bottom: 0px; 
         padding-bottom: -4px;
         letter-spacing: 2px;
+        font-size: 70px;
+        color: #fff;
     }
 
     .tex2{
-        font-family: calibri; 
-        font-weight: bold;
-        margin-top: 0px;
+        font-family: Inter-Bold;   
+        margin-top: -20px;
         padding-top: 0px;  
+        font-size: 70px;
+        color: #fff;
     }
     .tex3{
-        /* font-family: cursive; */
         font-size: 1.8rem;
-        margin-top: 50px;
+        margin-top: 10px;
         line-height: 30px;
         text-align: justify;
+        font-family: calibri;
+        color: #fff;
     }
+
+   
+
+    .cn1{
+        margin-top: 80px;
+        margin-left: 100px;
+
+    }
+    .btn5{
+            background: #89D316; 
+            margin-left: 50px;
+            margin-top: 20px; 
+            font-family:Inter-Bold ; 
+            letter-spacing: 0.2px; 
+            font-size: 17px;
+            color: #fff;
+            padding: 10px;
+    }
+    .btn5:hover{
+        background: #89D316; 
+        color: #fff;
+    } 
+    .imt{
+        background-image: url("assets/img/imagen01.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    /* hacer una media responsive */
+
    </style>
 
 </head>
@@ -112,7 +147,7 @@
     </div>
 </div> -->
 
-<div class="content mt-3 mb-5" id="about">
+<!-- <div class="content mt-3 mb-5" id="about">
     <div class="row featurette">
           
           <div class="col-md-12">
@@ -121,5 +156,17 @@
                     <img src="assets/img/nuevo2.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  alt="...">
             </div>
           </div>
+    </div>
+</div> -->
+
+<div class="content imt">
+    <div class="row ">
+        <div class="col-xs-12 col-md-12 cn1">
+                <h1 class="tex1">Bienvenidos <p class="tex2">Somos MJV</p></h1>
+                <p class="tex3">¿Necesitas hacer crecer tu empresa,<br>
+                     pero no sabes por dondé empezar?<br>Nosotros podemos ayudarte</p>
+                     <p><a class="btn rounded-pill border-0 btn5" 
+                     href="#" >OBTÉN UNA ASESORIA GRATIS</a></p>
+        </div>
     </div>
 </div>
