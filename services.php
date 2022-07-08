@@ -120,20 +120,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="serv-card2">
-                    <div class="serv-item2">
-                        <div class="serv-img2">
+                <div class="serv-card">
+                    <div class="serv-item">
+                        <div class="serv-img">
                             <img src="assets/img/data/pagina.png" alt="">
                             <p>Página Web</p> 
                         </div>
-                        <div class="serv-info2">
+                        <div class="serv-info">
                             <p>
                                 Página Web</p>
                                 <ul>
                                   <li>Diseño gráfico personalizado.</li>  
                                   <li>Desarrollo de tiendas online.</li>  
                                 </ul>
-                                <a href="">← Más información</a> 
+                                <a href=""><p class="masinfo">← Más información</p></a> 
                         </div>
                     </div>
                 </div>
