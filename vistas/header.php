@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>MJV</title>
   
     <style>
@@ -92,16 +93,16 @@
                  <ul class="navbar-nav ms-auto mb-0 mb-lg-0 " >
                  <!-- navbar-nav text-uppercase ms-auto py-4 py-lg-0 -->
                      <li class="nav-item">
-                         <a class="nav-link nav-ini" style="font-size: 25px; font-family:calibri;" aria-current="page" href="./index.php">INICIO</a>
+                         <a class="nav-link nav-ini" aria-current="page" href="./index.php">INICIO</a>
                      </li>
                      <li class="nav-item">
-                         <a class="nav-link nav-ini" style="font-size: 25px; font-family:calibri;"  href="./nosotros.php">NOSOTROS</a>
+                         <a class="nav-link nav-ini"   href="./nosotros.php">NOSOTROS</a>
                      </li>
                      <li class="nav-item">
-                         <a class="nav-link nav-ini" style="font-size: 25px; font-family:calibri;"  href="./servicios.php">SERVICIOS</a>
+                         <a class="nav-link nav-ini"   href="./servicios.php">SERVICIOS</a>
                      </li>
                      <li class="nav-item">
-                         <a class="nav-link nav-ini me-2" style="font-size: 25px; font-family:calibri;"  href="./contact.php">CONTÁCTANOS</a>
+                         <a class="nav-link nav-ini me-2"   href="./contact.php">CONTÁCTANOS</a>
                      </li>
                      
                  </ul>

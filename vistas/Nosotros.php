@@ -20,7 +20,7 @@
             background:#89D316 ;
             color: white;
             border-radius: 10px;
-            padding: 10px 50px 10px 50px;
+            padding: 10px 80px 10px 80px;
         }
         .boton:hover{
             background:#89D316 ;
@@ -70,7 +70,7 @@
             margin-bottom: 20px;
         }
         .im3{
-            margin-top: 85px;
+            margin-top: 70px;
             margin-bottom: 20px;
         }
 
@@ -96,7 +96,7 @@
             </div>
 
             <div class="row mt-3">
-            <p class="cont">Somos una empresa que brinda servicios de marketing digital y de reclutamiento de personal a precios accesibles, apoyamos al emprendedor y empresarios a conseguir sus objetivos.</p>
+            <p class="cont">Somos una empresa que brinda servicios de marketing digital y de reclutamiento de personal a precios accesibles. Apoyamos al emprendedor y empresarios a conseguir sus objetivos.</p>
             </div>
 
             <div class="col-12 img-icon mt-3" style="color: white;">
@@ -121,7 +121,7 @@
     <div class="row sep">
         <div class="col-lg-4 text-center">
             <p><a class="btn boton"  href="#">Misión</a></p>
-            <p class="cont">Somos una empresa que brinda servicios de marketing digital y de reclutamiento de personal a precios accesibles, apoyamos al emprendedor y empresarios a conseguir sus objetivos.</p>
+            <p class="cont">Somos una empresa que brinda servicios de marketing digital y de reclutamiento de personal a precios accesibles. Apoyamos al emprendedor y empresarios a conseguir sus objetivos.</p>
             <div>
                 <img src="assets/img/06.png" class="bd-placeholder-img" width="100" height="auto"  style="margin-bottom: 20px;" alt="...">
             </div>
@@ -140,7 +140,8 @@
             <p class="cont">
                 <i class="fa-solid fa-angle-right"></i>  Compromiso<br>
                 <i class="fa-solid fa-angle-right"></i>  Puntualidad <br>
-                <i class="fa-solid fa-angle-right"></i>  Integridad y Responsabilidad</p>
+                <i class="fa-solid fa-angle-right"></i>  Integridad <br>
+                <i class="fa-solid fa-angle-right"></i>  Responsabilidad</p>
             <div>
                 <img src="assets/img/04.png" class="bd-placeholder-img im3" width="140" height="auto" alt="...">
             </div>

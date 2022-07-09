@@ -18,6 +18,8 @@
         <!-- <link rel="stylesheet" href="./css/Print_Styles.css"> -->
         <!-- Boostrap V-5.2 -->
         <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/beb51ce232.js" crossorigin="anonymous"></script>
     </head>
     <body>
 
@@ -36,7 +38,7 @@
                 <div class="row">
                     <div class="col-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="widget clearfix">
-                            <div class="widget-title">
+                            <div class="widget-title mb-4">
                                 <img src="assets/img/logo_mjv.png" alt="" style="max-width:200px;"/>
                             </div>
                             <p style="text-align: justify;color: white;">Somos una empresa  que brinda servicios 
@@ -66,8 +68,7 @@
                             </div>
                             <ul class="footer-links hov" style="list-style: none;text-align: justify;font-size: large;">
 
-                                <li><i class="fas fa-envelope" style="color: white"></i> <a style="color: white;text-decoration:none;" href="mailto:recursos.humanos@mjv.com.pee" >recursos.humanos@mjv.com.pe</a></li><br>      
-                                <li><i class="fas fa-envelope" style="color: white"></i> <a style="color: white;text-decoration:none;" href="mailto:marketing@mjv.com.pe" target="">marketing@mjv.com.pe</a></li><br>            
+                               <li><i class="fas fa-envelope" style="color: white"></i> <a style="color: white;text-decoration:none;" href="mailto:marketing@mjv.com.pe" target="">marketing@mjv.com.pe</a></li><br>            
 
                                 <li><i class="fas fa-phone-square" style="color: white"></i> <a style="color: white;text-decoration:none;" href="tel:+017457089">(01) 745 - 7089</a></li>      
                             </ul>
@@ -82,9 +83,10 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start" style="color:#fff;">Todos los derechos reservados</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-light btn-social mx-2" href=""><i class="fab fa-youtube" style="color: #533268;"></i></a>
+                        <a class="btn btn-light btn-social mx-2" href=""><i class="fab fa-facebook-f" style="color: #533268;"></i></a>
+                        <a class="btn btn-light btn-social mx-2" href=""><i class="fab fa-linkedin-in" style="color: #533268;"></i></a>
+                   
                     </div>
                     <div class="col-lg-4 text-lg-end">
                         <a class="text-decoration-none me-3" style="color:#fff;">Copyright &copy; MJV 2021</a>

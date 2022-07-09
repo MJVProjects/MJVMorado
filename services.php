@@ -11,7 +11,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <link href="css/styles.css" rel="stylesheet" />
-        
+        <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/beb51ce232.js" crossorigin="anonymous"></script>
     </head>
     <body>
 
@@ -107,7 +108,7 @@
                     <div class="serv-item">
                         <div class="serv-img">
                             <img src="assets/img/data/community.png" alt="">
-                           <p>Community Manager</p>  
+                           <p> COMMUNITY MANAGER </p>  
                         </div>
                         <div class="serv-info">
                             <p>
@@ -124,7 +125,7 @@
                     <div class="serv-item">
                         <div class="serv-img">
                             <img src="assets/img/data/pagina.png" alt="">
-                            <p>Página Web</p> 
+                            <p>PÁGINA WEB</p> 
                         </div>
                         <div class="serv-info">
                             <p>
@@ -141,7 +142,7 @@
                     <div class="serv-item">
                         <div class="serv-img">
                             <img src="assets/img/data/diseño.png" alt="">
-                            <p>Diseño de Logo</p> 
+                            <p>DISEÑO DE LOGO</p> 
                         </div>
                         <div class="serv-info">
                             <p>
@@ -162,7 +163,7 @@
             <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Servicio de Community Manager</h5>
+                <h5 class="modal-title" id="exampleModalLabel">SERVICIO DE COMMUNITY MANAGER</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
