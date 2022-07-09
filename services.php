@@ -141,7 +141,7 @@
                 <div class="serv-card">
                     <div class="serv-item">
                         <div class="serv-img">
-                            <img src="assets/img/data/diseño.png" alt="">
+                            <img src="assets/img/data/diseño.png" style="width: 50px;" alt="">
                             <p>DISEÑO DE LOGO</p> 
                         </div>
                         <div class="serv-info">

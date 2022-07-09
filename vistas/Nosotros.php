@@ -121,9 +121,9 @@
     <div class="row sep">
         <div class="col-lg-4 text-center">
             <p><a class="btn boton"  href="#">Misión</a></p>
-            <p class="cont">Somos una empresa que brinda servicios de marketing digital y de reclutamiento de personal a precios accesibles. Apoyamos al emprendedor y empresarios a conseguir sus objetivos.</p>
+            <p class="cont">Somos una empresa que brinda servicios de marketing digital a precios accesibles. Apoyamos al emprendedor y empresarios a conseguir sus objetivos.</p>
             <div>
-                <img src="assets/img/06.png" class="bd-placeholder-img" width="100" height="auto"  style="margin-bottom: 20px;" alt="...">
+                <img src="assets/img/06.png" class="bd-placeholder-img" width="100" height="auto"  style="margin-bottom: 20px; margin-top: 10px;" alt="...">
             </div>
         </div><!-- /.col-lg-4 -->
 

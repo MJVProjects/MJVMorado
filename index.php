@@ -40,7 +40,7 @@
                                 <img src="assets/img/logo_mjv.png" alt="" style="max-width:200px;"/>
                             </div>
                             <p style="text-align: justify;color: white;">Somos una empresa  que brinda servicios 
-                                de marketing digital y de reclutamiento de personal a precios accesibles, apoyamos 
+                                de marketing digital a precios accesibles. Apoyamos 
                                 al emprendedor y empresarios a conseguir sus objetivos.</p>
                         </div>
                     </div>
