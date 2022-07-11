@@ -61,7 +61,7 @@
                             </div>
                             <p style="text-align: justify;color: white;">Somos una empresa  que brinda servicios 
                                 de marketing digital a precios accesibles. Apoyamos 
-                                al emprendedor y empresarios a conseguir sus objetivos.</p>
+                                al emprendedor y a los empresarios a conseguir sus objetivos.</p>
                         </div>
                     </div>
     
