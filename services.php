@@ -97,7 +97,7 @@
             </div>
         </section> -->
         <div style="background-color:#653B7B;" id="servicios">
-            <div class="col-5" style="margin-top: 20px;">
+            <div class="col-lg-5 col-sm-10  text-sm-center" style="margin-top: 20px;">
                 <br>
                 <div class="serv-title">
                     Marketing Digital
@@ -118,7 +118,7 @@
                                   <li>Optimización de redes sociales</li>  
                                   <li>Publicación diaria de actualizaciones</li>  
                                 </ul>
-                                <a href="">← Más información</a> 
+                                <a href="./contact.php">← Más información</a> 
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                                   <li>Diseño gráfico personalizado.</li>  
                                   <li>Desarrollo de tiendas online.</li>  
                                 </ul>
-                                <a href=""><p class="masinfo">← Más información</p></a> 
+                                <a href="./contact.php"><p class="masinfo">← Más información</p></a> 
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@
                                   <li>Diseño gráfico de logo desde cero.</li>  
                                   <li>Rediseño de logo.</li>  
                                 </ul>
-                                <a href="">← Más información</a> 
+                                <a href="./contact.php">← Más información</a> 
                         </div>
                     </div>
                 </div>

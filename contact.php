@@ -71,6 +71,7 @@
         <section class="page-section" id="about" style="background: #653B7B; color:white;">
         <?php
         include_once '../MJVMorado/vistas/header.php';
+        
         ?>    
             <div class="container">
                 <form id="Formulario">
@@ -134,11 +135,11 @@
             </div>
         </section>
 
-
+        <!-- footer -->
         <footer class="footer py-4" style="background-color:#653B7B;">
             <div class="container">
                 <div class="row">
-                    <div class="col-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-lg-4 col-md-8 col-sm-12 col-xs-12">
                         <div class="widget clearfix">
                             <div class="widget-title mb-4">
                                 <img src="assets/img/logo_mjv.png" alt="" style="max-width:200px;"/>
@@ -149,28 +150,28 @@
                         </div>
                     </div>
     
-                    <div class="col-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-xs-center">
                         <div class="widget clearfix" style="margin-left: 5rem;">
                             <div class="widget-title" style="position: relative;display: block;margin-bottom:30px;margin-left: 2rem;">
                                 <h3 style="color: #fff;">Índice</h3>
                             </div>
                             <ul class="footer-links hov" style="list-style: none;text-align: justify;font-size: large;">
 
-                            <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="index.php">Inicio</a></li>                              
+                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="index.php">Inicio</a></li>                              
                                 <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="nosotros.php">Nosotros</a></li>                              
                                 <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="servicios.php">Servicios</a></li>                              
-                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="contact.php">Contacto</a></li>     
-                        </ul>
+                                <li><i class="fas fa-angle-double-right" style="color: white"></i> <a style="color: white;text-decoration:none;" href="contact.php">Contacto</a></li>                              
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-lg-4 col-md-12 col-sm-6 col-xs-12 text-md-center text-xs-center">
                         <div class="footer-distributed widget clearfix">
                             <div class="widget-title" style="position: relative;display: block;margin-bottom:30px;margin-left:2rem;">
                                 <h3 style="color: #fff;">Ponte en contacto:</h3>
                             </div>
                             <ul class="footer-links hov" style="list-style: none;text-align: justify;font-size: large;">
 
-                                <li><i class="fas fa-envelope" style="color: white"></i> <a style="color: white;text-decoration:none;" href="mailto:marketing@mjv.com.pe" target="">marketing@mjv.com.pe</a></li><br>            
+                               <li><i class="fas fa-envelope" style="color: white"></i> <a style="color: white;text-decoration:none;" href="mailto:marketing@mjv.com.pe" target="">marketing@mjv.com.pe</a></li><br>            
 
                                 <li><i class="fas fa-phone-square" style="color: white"></i> <a style="color: white;text-decoration:none;" href="tel:+017457089">(01) 745 - 7089</a></li>      
                             </ul>
@@ -183,19 +184,20 @@
         <footer class="footer py-4" style="background: #533268;">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start" style="color:#fff;">Todos los derechos reservados</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-light btn-social mx-2" href=""><i class="fab fa-youtube" style="color: #533268;"></i></a>
+                    <div class="col-12 col-sm-12 col-lg-4 text-lg-start text-sm-center text-center" style="color:#fff;">Todos los derechos reservados</div>
+                    <div class="col-12 col-sm-12 col-lg-4 my-3 my-lg-0 text-sm-center text-center">
+                            <a class="btn btn-light btn-social mx-2" href=""><i class="fab fa-youtube" style="color: #533268;"></i></a>
                         <a class="btn btn-light btn-social mx-2" href=""><i class="fab fa-facebook-f" style="color: #533268;"></i></a>
                         <a class="btn btn-light btn-social mx-2" href=""><i class="fab fa-linkedin-in" style="color: #533268;"></i></a>
+                   
                     </div>
-                    <div class="col-lg-4 text-lg-end">
+                    <div class="col-12 col-sm-12 col-lg-4 text-lg-end text-sm-center text-center">
                         <a class="text-decoration-none me-3" style="color:#fff;">Copyright &copy; MJV 2021</a>
                     </div>
                 </div>
             </div>
         </footer>
-
+       
         
     </body>
         <script src="https://smtpjs.com/v3/smtp.js"></script>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>MJV</title>
-  
+    
     <style>
         .nav-ini{
             font-size: 20px;
@@ -76,21 +76,21 @@
                
             </div>
         </div>
-</header>
+
 
     <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top " > -->
-     <nav class="navbar navbar-expand-lg  navbar-dark " >
-         <div class="container-fluid nav1 cont2" >
+     <nav class="navbar navbar-expand-lg  navbar-dark">
+         <div class="container-fluid nav1 cont2">
              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-             <a class="navbar-brand " href="index.html" style="margin-left: 100px;" >
+             <a class="navbar-brand" href="index.html" style="margin-left: 100px;" >
                  <img src="assets/img/logo_mjv.png" alt="..."  style="width: auto; height: 60px;"/>
              </a>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-             </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
              
-             <div class="collapse navbar-collapse justify-content-end me-5" id="navbarSupportedContent">
-                 <ul class="navbar-nav ms-auto mb-0 mb-lg-0 " >
+             <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+                 <ul class="navbar-nav">
                  <!-- navbar-nav text-uppercase ms-auto py-4 py-lg-0 -->
                      <li class="nav-item">
                          <a class="nav-link nav-ini" aria-current="page" href="./index.php">INICIO</a>
@@ -109,7 +109,7 @@
              </div>
          </div>
      </nav>
-
+    </header>
      <script>
         window.addEventListener("scroll", function(){
        
