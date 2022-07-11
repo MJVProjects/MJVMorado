@@ -109,7 +109,7 @@
                     <div class="serv-item">
                         <div class="serv-img">
                             <img src="assets/img/data/community.png" alt="">
-                           <p> COMMUNITY MANAGER </p>  
+                           <p> COMMUNITY <br>MANAGER </p>  
                         </div>
                         <div class="serv-info">
                             <p>

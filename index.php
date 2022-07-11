@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>MJV</title>
     <link rel="icon" type="image/x-icon" href="assets/img/log-mjv.png" />
     <!-- Font Awesome -->
@@ -13,11 +15,28 @@
     
     
     <!-- stylos propios -->
-    <!-- <link rel="stylesheet" href="./css/Print_Styles.css"> -->
-    <!-- <link rel="stylesheet" href="./css/carousel.css">
-    <link rel="stylesheet" href="./css/carousel.rtl.css"> -->
+
     <link rel="stylesheet" href="./css/styles.css">
-    <!-- <link rel="stylesheet" href="./css/nosotros.css"> -->
+
+    <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>MJV</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/log-mjv.png" />
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="./css/styles.css" rel="stylesheet" />
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+         <!-- stylos propios -->
+        
+        <!-- <link rel="stylesheet" href="./css/Print_Styles.css"> -->
+        <!-- Boostrap V-5.2 -->
+        <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/beb51ce232.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -107,4 +126,13 @@
 <script src="js/ContactFrom.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/scripts.js"></script>
+
+
+<!-- nuevos -->
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase.js"></script>
+        <script src="js/ContactFrom.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
 </html>

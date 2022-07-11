@@ -66,11 +66,11 @@
         }
 
         .im2{
-            margin-top: 50px;
+            margin-top: 40px;
             margin-bottom: 20px;
         }
         .im3{
-            margin-top: 70px;
+            margin-top: 50px;
             margin-bottom: 20px;
         }
 
@@ -79,6 +79,20 @@
             text-align: center;
             font-size: 50px;
         }
+
+        
+    @media (max-width: 600px) {
+        .im3{
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+        .im2{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+    
+    }
+
     </style>
     
 </head>
@@ -96,7 +110,7 @@
             </div>
 
             <div class="row mt-3">
-            <p class="cont">Somos una empresa que brinda servicios de marketing digital y de reclutamiento de personal a precios accesibles. Apoyamos al emprendedor y empresarios a conseguir sus objetivos.</p>
+            <p class="cont">Somos una empresa que brinda servicios de marketing digital a precios accesibles. Apoyamos al emprendedor y a los empresarios a conseguir sus objetivos.</p>
             </div>
 
             <div class="col-12 img-icon mt-3" style="color: white;">

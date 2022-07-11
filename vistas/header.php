@@ -110,7 +110,7 @@
          </div>
      </nav>
     </header>
-     <script>
+     <!-- <script>
         window.addEventListener("scroll", function(){
        
             var nav = document.querySelector("nav");
@@ -123,4 +123,4 @@
             header.classList.toggle("ocultar",window.scrollY>0);
            
         });
-     </script>
+     </script> -->
